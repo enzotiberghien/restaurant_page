@@ -1,0 +1,104 @@
+/* Home page */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-color: #FBFFFE;
+}
+
+.navbar-items {
+    cursor: pointer;
+}
+
+.navbar-items:hover {
+    color: #FAA916;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    background-image: url("https://images8.alphacoders.com/936/thumb-1920-936875.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container {
+    margin: 3% 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 3%;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section {
+    background-color: #FAA916;
+    border-radius: 7px;
+    padding: 3%;
+    width: 70%;
+    margin: 3% 0;
+}
+
+p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: #FBFFFE;
+}
+
+/* Menu page */
+
+.menu-items {
+    margin: 2% 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #FAA916;
+}
+
+.menu-items img {
+    width: 35%;
+    height: 300px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contact Page */
+
+.contact-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+}
